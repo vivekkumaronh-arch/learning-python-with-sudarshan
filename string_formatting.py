@@ -1,32 +1,49 @@
-# python format() function
-# "{}".format(value)
+# # python format() function
+# # "{}".format(value)
 
-Bride="Deepika"
-Groom="Ranveer"
-Date="14 Nov 2018"
+# Bride="Deepika"
+# Groom="Ranveer"
+# Date="14 Nov 2018"
 
-# Do remember the order
-print("{} is married to {} on {}".format(Bride,Groom,Date))
-
-
-# Another way to print, order doesn't matter here.
-print("{Lady} is married to {Gentleman} on {Day}".format(Day = Date,Lady=Bride,Gentleman=Groom))
+# # Do remember the order
+# print("{} is married to {} on {}".format(Bride,Groom,Date))
 
 
-# format a string using f string
-place="Classroom"
-Tool="CCTV"
-Topic="Notice"
-
-print(f"{Topic}: This {place} is under {Tool} surveillance")
+# # Another way to print, order doesn't matter here.
+# print("{Lady} is married to {Gentleman} on {Day}".format(Day = Date,Lady=Bride,Gentleman=Groom))
 
 
-# format a string using %s,%d,%f
+# # format a string using f string
+# place="Classroom"
+# Tool="CCTV"
+# Topic="Notice"
 
-name="vivek"
-age=21
-marks=89.60
-
-print("Hello everyone, My name is %s . I am %d years old. I got %f marks in 12th standard" %(name,age,marks))
+# print(f"{Topic}: This {place} is under {Tool} surveillance")
 
 
+# # format a string using %s,%d,%f
+
+# name="vivek"
+# age=21
+# marks=89.60
+
+# print("Hello everyone, My name is %s . I am %d years old. I got %f marks in 12th standard" %(name,age,marks))
+
+
+
+
+name=input("Enter your name:")
+if name==name[::-1]:
+    print("Yes,it is palindrome.")
+else:
+    print("No, it is not palindrome.")
+
+
+# # one more code
+# name=input("Enter your name:")
+# a=name.lower()
+# b=a[::-1]
+# if a==b:
+#     print("yes it is palindrom.")
+# else:
+#     print("No, it is not palindrome")
