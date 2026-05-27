@@ -37,7 +37,8 @@ for i in range(1,11):
 
 # print a table of 15 
 for i in range(1,11):
-   print("15 X",i,"=",15*i)
+   # print("15 X",i,"=",15*i)
+   print(f'15 X {i} = {15*i}')
 
 
 
