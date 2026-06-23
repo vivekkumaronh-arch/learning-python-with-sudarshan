@@ -78,4 +78,24 @@ else:
    for i in range(num,1,-1):
       fact=fact*i
    print("Factorial of",num,"is",fact)
+
+
+
+
+# WAP to print Fibonacci Series
+for i in range(10):
+   a=0
+   b=1
+   a+=b
+   print(a)
+   
+
+for num in range(100)
+   for i in range(100):
+      if i % num:
+         print(i)
+
+
+
+
    
